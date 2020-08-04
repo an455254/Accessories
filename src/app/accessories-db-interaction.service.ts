@@ -7,7 +7,7 @@ import { HttpHeaders, HttpClient, HttpErrorResponse } from '@angular/common/http
   providedIn: 'root'
 })
 export class AccessoriesDbInteractionService {
-  apiUrl: string = 'http://localhost:3000';
+  apiUrl: string = 'http://localhost:3000/';
   headers = new HttpHeaders().set('Content-Type', 'application/json');
 
   constructor(private http: HttpClient) { }
